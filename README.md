@@ -17,4 +17,12 @@
 2. **Rodar as Migrations**
 Uma migration inicial está criada, basta executar Update-Database.
 
+3. **Configuração RabbitMQ**
+ As configurações do rabbit encontra-se em também em launchsettings.json, assim como a connectionstring.
+basta alterar de acordo com sua instancia local do rabbitmq:
+        "RABBITMQHOSTNAME": "localhost",
+        "RABBITMQUSERNAME": "guest",
+        "RABBITMQPASSWORD": "guest",
+        "RABBITMQVIRTUALHOST": "localhost"
+
 
